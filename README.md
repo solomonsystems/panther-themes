@@ -1,6 +1,6 @@
 # Panther Themes
 
-Official and community color themes for the [Panther](https://getpanther.app) prediction-market terminal.
+Official and community color themes for [Panther](https://getpanther.app).
 
 Browse and install these from the terminal: **Settings → Appearance → Community Themes**. You can also build your own in **Settings → Appearance → Customize Theme**, export the JSON, and open a PR here to share it.
 
