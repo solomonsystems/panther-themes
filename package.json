@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "description": "Official + community themes for the Panther prediction-market terminal.",
+  "description": "Official + community themes for Panther.",
   "scripts": {
     "build": "node scripts/build-manifest.mjs",
     "check": "node scripts/build-manifest.mjs --check"
