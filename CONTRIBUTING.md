@@ -18,6 +18,7 @@ themes/community/<your-slug>/
 ```
 
 - `<your-slug>` is kebab-case (e.g. `tokyo-night`) and **must equal** the `id` field in `theme.json`.
+- Set `author` to **your own name**. `PantherOfficial` is reserved for first-party themes and is rejected by CI on community submissions.
 - Every color is either **hex** (`#7aa2f7`, `#0f0`) or shadcn **HSL-space** (`"217 92% 73%"`).
 - Required color groups: `foundation` (19 tokens), `trading` (4), `chart` (8). Optional: `venue`, `outcome`, `typography`, `layout` — omitted tokens fall back to the Default theme.
 - Full field reference: [`schema/theme.schema.json`](./schema/theme.schema.json).

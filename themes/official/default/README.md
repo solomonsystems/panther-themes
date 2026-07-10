@@ -2,7 +2,7 @@
 
 Pure black with trading colors
 
-An official Panther theme, by Panther.
+An official Panther theme by PantherOfficial.
 
 ## Palette
 - Background `0 0% 0%`

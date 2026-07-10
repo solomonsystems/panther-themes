@@ -2,7 +2,7 @@
 
 Darker slate backgrounds with purple accents
 
-An official Panther theme, by Panther.
+An official Panther theme by PantherOfficial.
 
 ## Palette
 - Background `222.2 47.4% 3.2%`

@@ -2,7 +2,7 @@
 
 Navy blue with yellow accents
 
-An official Panther theme, by Panther.
+An official Panther theme by PantherOfficial.
 
 ## Palette
 - Background `224 71.4% 4.1%`

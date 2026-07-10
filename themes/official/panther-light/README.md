@@ -2,7 +2,7 @@
 
 GitHub-style light mode: white canvas, blue primary, multi-hue accents
 
-An official Panther theme, by Panther.
+An official Panther theme by PantherOfficial.
 
 ## Palette
 - Background `210 17% 98%`

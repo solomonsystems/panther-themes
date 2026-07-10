@@ -12,6 +12,12 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const CHECK = process.argv.includes('--check')
 const CATEGORIES = ['official', 'community']
 
+// Author names reserved for first-party themes. Community submissions may not
+// claim them (matched case-insensitively, ignoring whitespace) so nobody can
+// masquerade as an official Panther theme.
+const RESERVED_AUTHORS = new Set(['pantherofficial'])
+const normalizeAuthor = (a) => String(a || '').toLowerCase().replace(/\s+/g, '')
+
 const schema = JSON.parse(readFileSync(join(ROOT, 'schema/theme.schema.json'), 'utf8'))
 const validate = new Ajv2020({ allErrors: true, strict: false }).compile(schema)
 
@@ -43,6 +49,10 @@ for (const category of CATEGORIES) {
     if (theme.id !== slug) errors.push(`${relPath}: id "${theme.id}" must match folder name "${slug}"`)
     if (seen.has(theme.id)) errors.push(`${relPath}: duplicate id "${theme.id}" (also in ${seen.get(theme.id)})`)
     seen.set(theme.id, relPath)
+
+    if (category === 'community' && RESERVED_AUTHORS.has(normalizeAuthor(theme.author))) {
+      errors.push(`${relPath}: author "${theme.author}" is reserved for official Panther themes — please use your own name`)
+    }
 
     entries.push({
       id: theme.id,

@@ -2,7 +2,7 @@
 
 GitHub Dark — editor palette with blue accents
 
-An official Panther theme, by Panther.
+An official Panther theme by PantherOfficial.
 
 ## Palette
 - Background `216 28% 7%`
