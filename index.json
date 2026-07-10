@@ -58,5 +58,20 @@
     "category": "official",
     "path": "themes/official/slate/theme.json",
     "readmePath": "themes/official/slate/README.md"
+  },
+  {
+    "id": "gruvbox",
+    "name": "Gruvbox",
+    "description": "Retro groove — warm, medium-contrast dark theme.",
+    "author": "micah",
+    "version": "0.1.0",
+    "tags": [
+      "dark",
+      "warm",
+      "retro"
+    ],
+    "category": "community",
+    "path": "themes/community/gruvbox/theme.json",
+    "readmePath": "themes/community/gruvbox/README.md"
   }
 ]

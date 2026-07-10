@@ -1,0 +1,61 @@
+{
+  "id": "gruvbox",
+  "name": "Gruvbox",
+  "version": "0.1.0",
+  "author": "micah",
+  "description": "Retro groove — warm, medium-contrast dark theme.",
+  "tags": [
+    "dark",
+    "warm",
+    "retro"
+  ],
+  "colors": {
+    "foundation": {
+      "background": "#282828",
+      "foreground": "#ebdbb2",
+      "card": "#3c3836",
+      "card-foreground": "#ebdbb2",
+      "popover": "#3c3836",
+      "popover-foreground": "#ebdbb2",
+      "primary": "#fabd2f",
+      "primary-foreground": "#282828",
+      "secondary": "#504945",
+      "secondary-foreground": "#ebdbb2",
+      "muted": "#504945",
+      "muted-foreground": "#928374",
+      "accent": "#504945",
+      "accent-foreground": "#ebdbb2",
+      "destructive": "#fb4934",
+      "destructive-foreground": "#fbf1c7",
+      "border": "#504945",
+      "input": "#3c3836",
+      "ring": "#fabd2f"
+    },
+    "trading": {
+      "trading-gain": "#b8bb26",
+      "trading-loss": "#fb4934",
+      "trading-highlight": "#fe8019",
+      "trading-info": "#83a598"
+    },
+    "chart": {
+      "chart-bg": "#282828",
+      "chart-grid": "#3c3836",
+      "chart-text": "#928374",
+      "chart-1": "#fe8019",
+      "chart-2": "#b8bb26",
+      "chart-3": "#83a598",
+      "chart-4": "#fb4934",
+      "chart-5": "#d3869b"
+    },
+    "venue": {
+      "venue-kalshi": "#b8bb26",
+      "venue-polymarket": "#83a598",
+      "venue-polygon": "#d3869b",
+      "venue-solana": "#8ec07c"
+    },
+    "outcome": {
+      "outcome-yes": "#b8bb26",
+      "outcome-no": "#fb4934"
+    }
+  }
+}
