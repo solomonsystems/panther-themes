@@ -1,0 +1,66 @@
+{
+  "id": "panther",
+  "name": "Panther",
+  "version": "1.0.0",
+  "author": "PantherOfficial",
+  "description": "Navy blue with yellow accents",
+  "colors": {
+    "foundation": {
+      "background": "224 71.4% 4.1%",
+      "foreground": "210 20% 98%",
+      "card": "224 71.4% 4.1%",
+      "card-foreground": "210 20% 98%",
+      "popover": "224 71.4% 4.1%",
+      "popover-foreground": "210 20% 98%",
+      "primary": "45 100% 50%",
+      "primary-foreground": "0 0% 0%",
+      "secondary": "215 27.9% 16.9%",
+      "secondary-foreground": "210 20% 98%",
+      "muted": "215 27.9% 16.9%",
+      "muted-foreground": "217.9 10.6% 64.9%",
+      "accent": "215 27.9% 16.9%",
+      "accent-foreground": "210 20% 98%",
+      "destructive": "0 62.8% 30.6%",
+      "destructive-foreground": "210 20% 98%",
+      "border": "215 25% 24%",
+      "input": "215 27.9% 16.9%",
+      "ring": "45 100% 50%"
+    },
+    "trading": {
+      "trading-gain": "142 71% 45%",
+      "trading-loss": "0 84% 60%",
+      "trading-highlight": "38 92% 50%",
+      "trading-info": "217 91% 60%"
+    },
+    "chart": {
+      "chart-bg": "240 10% 3.9%",
+      "chart-grid": "240 3.7% 15.9%",
+      "chart-text": "240 5% 34.5%",
+      "chart-1": "45 100% 50%",
+      "chart-2": "160 60% 45%",
+      "chart-3": "30 80% 55%",
+      "chart-4": "280 65% 60%",
+      "chart-5": "340 75% 55%"
+    },
+    "venue": {
+      "venue-kalshi": "142 71% 45%",
+      "venue-polymarket": "217 91% 60%",
+      "venue-polygon": "263 75% 59%",
+      "venue-solana": "157 89% 51%"
+    },
+    "outcome": {
+      "outcome-yes": "142 71% 45%",
+      "outcome-no": "0 84% 60%"
+    }
+  },
+  "typography": {
+    "font-sans": "'DM Sans', system-ui, -apple-system, sans-serif",
+    "font-mono": "'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', ui-monospace, monospace",
+    "font-serif": "'Instrument Serif', Georgia, serif"
+  },
+  "layout": {
+    "radius": "0.5rem",
+    "window-gap": "2px",
+    "window-radius": "0.5rem"
+  }
+}

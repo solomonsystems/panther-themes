@@ -1,0 +1,62 @@
+[
+  {
+    "id": "coder",
+    "name": "Coder",
+    "description": "GitHub Dark — editor palette with blue accents",
+    "author": "PantherOfficial",
+    "version": "1.0.0",
+    "category": "official",
+    "path": "themes/official/coder/theme.json",
+    "readmePath": "themes/official/coder/README.md"
+  },
+  {
+    "id": "default",
+    "name": "Default",
+    "description": "Pure black with trading colors",
+    "author": "PantherOfficial",
+    "version": "1.0.0",
+    "category": "official",
+    "path": "themes/official/default/theme.json",
+    "readmePath": "themes/official/default/README.md"
+  },
+  {
+    "id": "panther",
+    "name": "Panther",
+    "description": "Navy blue with yellow accents",
+    "author": "PantherOfficial",
+    "version": "1.0.0",
+    "category": "official",
+    "path": "themes/official/panther/theme.json",
+    "readmePath": "themes/official/panther/README.md"
+  },
+  {
+    "id": "panther-light",
+    "name": "Panther Light",
+    "description": "GitHub-style light mode: white canvas, blue primary, multi-hue accents",
+    "author": "PantherOfficial",
+    "version": "1.0.0",
+    "category": "official",
+    "path": "themes/official/panther-light/theme.json",
+    "readmePath": "themes/official/panther-light/README.md"
+  },
+  {
+    "id": "purple",
+    "name": "Purple",
+    "description": "Elegant dark mode with purple accents",
+    "author": "PantherOfficial",
+    "version": "1.0.0",
+    "category": "official",
+    "path": "themes/official/purple/theme.json",
+    "readmePath": "themes/official/purple/README.md"
+  },
+  {
+    "id": "slate",
+    "name": "Slate",
+    "description": "Darker slate backgrounds with purple accents",
+    "author": "PantherOfficial",
+    "version": "1.0.0",
+    "category": "official",
+    "path": "themes/official/slate/theme.json",
+    "readmePath": "themes/official/slate/README.md"
+  }
+]

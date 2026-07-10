@@ -1,0 +1,66 @@
+{
+  "id": "panther-light",
+  "name": "Panther Light",
+  "version": "1.0.0",
+  "author": "PantherOfficial",
+  "description": "GitHub-style light mode: white canvas, blue primary, multi-hue accents",
+  "colors": {
+    "foundation": {
+      "background": "210 17% 98%",
+      "foreground": "213 13% 14%",
+      "card": "0 0% 100%",
+      "card-foreground": "213 13% 14%",
+      "popover": "0 0% 100%",
+      "popover-foreground": "213 13% 14%",
+      "primary": "212 92% 45%",
+      "primary-foreground": "0 0% 100%",
+      "secondary": "210 17% 95%",
+      "secondary-foreground": "213 13% 14%",
+      "muted": "210 17% 95%",
+      "muted-foreground": "213 9% 43%",
+      "accent": "213 18% 93%",
+      "accent-foreground": "213 13% 14%",
+      "destructive": "356 72% 47%",
+      "destructive-foreground": "0 0% 100%",
+      "border": "214 18% 84%",
+      "input": "214 18% 84%",
+      "ring": "212 92% 45%"
+    },
+    "trading": {
+      "trading-gain": "137 66% 30%",
+      "trading-loss": "356 72% 47%",
+      "trading-highlight": "40 100% 30%",
+      "trading-info": "212 92% 45%"
+    },
+    "chart": {
+      "chart-bg": "0 0% 100%",
+      "chart-grid": "214 18% 90%",
+      "chart-text": "213 9% 43%",
+      "chart-1": "212 92% 45%",
+      "chart-2": "137 66% 30%",
+      "chart-3": "261 69% 59%",
+      "chart-4": "356 72% 47%",
+      "chart-5": "40 100% 30%"
+    },
+    "venue": {
+      "venue-kalshi": "142 71% 45%",
+      "venue-polymarket": "217 91% 60%",
+      "venue-polygon": "263 75% 59%",
+      "venue-solana": "157 89% 51%"
+    },
+    "outcome": {
+      "outcome-yes": "142 71% 45%",
+      "outcome-no": "0 84% 60%"
+    }
+  },
+  "typography": {
+    "font-sans": "'DM Sans', system-ui, -apple-system, sans-serif",
+    "font-mono": "'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', ui-monospace, monospace",
+    "font-serif": "'Instrument Serif', Georgia, serif"
+  },
+  "layout": {
+    "radius": "0.5rem",
+    "window-gap": "2px",
+    "window-radius": "0.5rem"
+  }
+}

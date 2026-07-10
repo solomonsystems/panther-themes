@@ -1,0 +1,66 @@
+{
+  "id": "default",
+  "name": "Default",
+  "version": "1.0.0",
+  "author": "PantherOfficial",
+  "description": "Pure black with trading colors",
+  "colors": {
+    "foundation": {
+      "background": "0 0% 0%",
+      "foreground": "0 0% 100%",
+      "card": "0 0% 6%",
+      "card-foreground": "0 0% 100%",
+      "popover": "0 0% 6%",
+      "popover-foreground": "0 0% 100%",
+      "primary": "45 100% 50%",
+      "primary-foreground": "0 0% 0%",
+      "secondary": "0 0% 12%",
+      "secondary-foreground": "0 0% 90%",
+      "muted": "0 0% 15%",
+      "muted-foreground": "0 0% 55%",
+      "accent": "0 0% 12%",
+      "accent-foreground": "0 0% 90%",
+      "destructive": "0 100% 50%",
+      "destructive-foreground": "0 0% 100%",
+      "border": "0 0% 20%",
+      "input": "0 0% 8%",
+      "ring": "45 100% 50%"
+    },
+    "trading": {
+      "trading-gain": "120 100% 45%",
+      "trading-loss": "0 100% 55%",
+      "trading-highlight": "30 100% 55%",
+      "trading-info": "210 100% 60%"
+    },
+    "chart": {
+      "chart-bg": "0 0% 0%",
+      "chart-grid": "0 0% 15%",
+      "chart-text": "0 0% 45%",
+      "chart-1": "38 100% 50%",
+      "chart-2": "120 100% 40%",
+      "chart-3": "213 100% 50%",
+      "chart-4": "0 100% 50%",
+      "chart-5": "0 0% 70%"
+    },
+    "venue": {
+      "venue-kalshi": "142 71% 45%",
+      "venue-polymarket": "217 91% 60%",
+      "venue-polygon": "263 75% 59%",
+      "venue-solana": "157 89% 51%"
+    },
+    "outcome": {
+      "outcome-yes": "142 71% 45%",
+      "outcome-no": "0 84% 60%"
+    }
+  },
+  "typography": {
+    "font-sans": "'DM Sans', system-ui, -apple-system, sans-serif",
+    "font-mono": "'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', ui-monospace, monospace",
+    "font-serif": "'Instrument Serif', Georgia, serif"
+  },
+  "layout": {
+    "radius": "0.5rem",
+    "window-gap": "2px",
+    "window-radius": "0.5rem"
+  }
+}

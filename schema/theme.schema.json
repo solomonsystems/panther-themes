@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/solomonsystems/panther-themes/schema/theme.schema.json",
+  "title": "Panther Theme",
+  "description": "A Panther terminal theme. Colors are hex (#22c55e / #0f0) or shadcn HSL-space (\"224 71% 45%\"). This schema mirrors the Theme type in panther/packages/terminal-core/src/theme/types.ts — keep them in sync.",
+  "type": "object",
+  "required": ["id", "name", "colors"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "kebab-case; must match the theme's folder name" },
+    "name": { "type": "string", "minLength": 1 },
+    "version": { "type": "string" },
+    "author": { "type": "string" },
+    "description": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "colors": {
+      "type": "object",
+      "required": ["foundation", "trading", "chart"],
+      "additionalProperties": false,
+      "properties": {
+        "foundation": {
+          "type": "object",
+          "required": [
+            "background", "foreground", "card", "card-foreground",
+            "popover", "popover-foreground", "primary", "primary-foreground",
+            "secondary", "secondary-foreground", "muted", "muted-foreground",
+            "accent", "accent-foreground", "destructive", "destructive-foreground",
+            "border", "input", "ring"
+          ],
+          "additionalProperties": { "$ref": "#/$defs/color" }
+        },
+        "trading": {
+          "type": "object",
+          "required": ["trading-gain", "trading-loss", "trading-highlight", "trading-info"],
+          "additionalProperties": { "$ref": "#/$defs/color" }
+        },
+        "chart": {
+          "type": "object",
+          "required": ["chart-bg", "chart-grid", "chart-text", "chart-1", "chart-2", "chart-3", "chart-4", "chart-5"],
+          "additionalProperties": { "$ref": "#/$defs/color" }
+        },
+        "venue": {
+          "type": "object",
+          "additionalProperties": { "$ref": "#/$defs/color" }
+        },
+        "outcome": {
+          "type": "object",
+          "additionalProperties": { "$ref": "#/$defs/color" }
+        }
+      }
+    },
+    "typography": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "layout": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    }
+  },
+  "$defs": {
+    "color": {
+      "type": "string",
+      "description": "hex (#rgb, #rgba, #rrggbb, #rrggbbaa) or HSL-space components (\"H S% L%\", optional alpha)",
+      "pattern": "^(#([0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|[0-9]{1,3}(\\.[0-9]+)?\\s+[0-9]{1,3}(\\.[0-9]+)?%\\s+[0-9]{1,3}(\\.[0-9]+)?%(\\s+(0|1|0?\\.[0-9]+))?)$"
+    }
+  }
+}
