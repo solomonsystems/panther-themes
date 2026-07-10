@@ -1,0 +1,20 @@
+name: Validate themes
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-save ajv@^8.17.1
+      # Validates every theme against schema/theme.schema.json, requires a
+      # README per theme, and fails if index.json is out of date. Contributors
+      # run `npm run build` and commit the regenerated index.json.
+      - run: node scripts/build-manifest.mjs --check

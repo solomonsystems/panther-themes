@@ -1,0 +1,66 @@
+{
+  "id": "slate",
+  "name": "Slate",
+  "version": "1.0.0",
+  "author": "Panther",
+  "description": "Darker slate backgrounds with purple accents",
+  "colors": {
+    "foundation": {
+      "background": "222.2 47.4% 3.2%",
+      "foreground": "210 20% 98%",
+      "card": "222.2 47.4% 5.5%",
+      "card-foreground": "210 20% 98%",
+      "popover": "222.2 47.4% 5.5%",
+      "popover-foreground": "210 20% 98%",
+      "primary": "263.4 70% 50.4%",
+      "primary-foreground": "210 20% 98%",
+      "secondary": "217.2 32.6% 12%",
+      "secondary-foreground": "210 20% 98%",
+      "muted": "217.2 32.6% 10%",
+      "muted-foreground": "215 20.2% 55%",
+      "accent": "217.2 32.6% 12%",
+      "accent-foreground": "210 20% 98%",
+      "destructive": "0 62.8% 30.6%",
+      "destructive-foreground": "210 20% 98%",
+      "border": "217.2 32.6% 14%",
+      "input": "217.2 32.6% 14%",
+      "ring": "263.4 70% 50.4%"
+    },
+    "trading": {
+      "trading-gain": "142 71% 45%",
+      "trading-loss": "0 84% 60%",
+      "trading-highlight": "38 92% 50%",
+      "trading-info": "217 91% 60%"
+    },
+    "chart": {
+      "chart-bg": "222.2 47.4% 3.2%",
+      "chart-grid": "217.2 32.6% 14%",
+      "chart-text": "215 20.2% 45%",
+      "chart-1": "220 70% 50%",
+      "chart-2": "160 60% 45%",
+      "chart-3": "30 80% 55%",
+      "chart-4": "280 65% 60%",
+      "chart-5": "340 75% 55%"
+    },
+    "venue": {
+      "venue-kalshi": "142 71% 45%",
+      "venue-polymarket": "217 91% 60%",
+      "venue-polygon": "263 75% 59%",
+      "venue-solana": "157 89% 51%"
+    },
+    "outcome": {
+      "outcome-yes": "142 71% 45%",
+      "outcome-no": "0 84% 60%"
+    }
+  },
+  "typography": {
+    "font-sans": "'DM Sans', system-ui, -apple-system, sans-serif",
+    "font-mono": "'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', ui-monospace, monospace",
+    "font-serif": "'Instrument Serif', Georgia, serif"
+  },
+  "layout": {
+    "radius": "0.5rem",
+    "window-gap": "2px",
+    "window-radius": "0.5rem"
+  }
+}
